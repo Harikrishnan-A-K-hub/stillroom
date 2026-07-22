@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>STILLROOM — one memory, preserved as a digital object</title>
+  <meta name="description" content="STILLROOM is a digital-keepsake studio. Bring one meaningful memory — a photograph, a voice, a letter — and we shape it into a beautifully made digital object you can keep and pass on." />
+  <meta name="theme-color" content="#14130f" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%2314130f'/><circle cx='50' cy='50' r='16' fill='none' stroke='%23c43a1e' stroke-width='6'/><circle cx='50' cy='50' r='4' fill='%23f2ece0'/></svg>" />
+</head>
+<body>
+  <a class="skip-link" href="#reveal">Skip to the studio demonstration</a>
+
+  <!-- ============ UTILITY SIDE RAILS (desktop, decorative + live) ============ -->
+  <aside class="rail rail--left" aria-hidden="true">
+    <span class="rail__mark">STILLROOM</span>
+    <span class="rail__meta">EST · MMXXVI</span>
+    <span class="rail__index"><b data-rail-index>01</b> / 08</span>
+  </aside>
+  <aside class="rail rail--right" aria-hidden="true">
+    <span class="rail__status"><i class="dot dot--live"></i> OPEN FOR COMMISSIONS</span>
+    <span class="rail__section" data-rail-section>THE STUDIO</span>
+    <a class="rail__top" href="#top">↑ TOP</a>
+  </aside>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-head" id="top">
+    <div class="wrap site-head__inner">
+      <a class="brand" href="#top" aria-label="STILLROOM — home">
+        <span class="brand__glyph" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="26" height="26"><circle cx="20" cy="20" r="12" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="20" cy="20" r="3.2" fill="var(--red)"/></svg>
+        </span>
+        <span class="brand__word">STILLROOM</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#offer">The offer</a>
+        <a href="#reveal">The reveal</a>
+        <a href="#process">Process</a>
+        <a href="#work">Work</a>
+        <a href="#commission">Pricing</a>
+      </nav>
+      <div class="site-head__actions">
+        <span class="badge"><i class="dot dot--live"></i> Commissions open</span>
+        <a href="#contact" class="btn btn--sm">Commission →</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero__copy">
+        <p class="eyebrow"><span class="tick">✦</span> Digital keepsake studio &nbsp;·&nbsp; by commission</p>
+        <h1 class="hero__title" id="hero-title">
+          <span class="line"><span class="i">We preserve</span></span>
+          <span class="line"><span class="i">one <em>memory</em>.<span class="spark" aria-hidden="true">✦</span></span></span>
+        </h1>
+        <p class="hero__lede">
+          Bring us a single moment — a photograph, a voice, a letter. We shape it into a
+          beautifully made <strong>digital object</strong>: something you can hold on a screen,
+          return to, and pass on.
+        </p>
+        <div class="hero__cta">
+          <a href="#contact" class="btn btn--primary">Commission a keepsake</a>
+          <a href="#reveal" class="btn btn--ghost">Follow a memory <span aria-hidden="true">↘</span></a>
+        </div>
+        <ul class="hero__specs" aria-label="At a glance">
+          <li><b>One</b> memory at a time</li>
+          <li><b>One</b> designed object</li>
+          <li>Yours, <b>kept</b> for good</li>
+        </ul>
+      </div>
+
+      <!-- Identity portrait: black + deep red, direct flash (FIG.01) -->
+      <figure class="hero__portrait" aria-label="Studio identity portrait — the keeper, direct flash in deep red">
+        <div class="frame frame--square portrait" data-portrait>
+          <svg class="portrait__svg" viewBox="0 0 500 600" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true">
+            <defs>
+              <linearGradient id="duo" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#f0e7d5"/>
+                <stop offset="0.5" stop-color="#d98a53"/>
+                <stop offset="1" stop-color="#c43a1e"/>
+              </linearGradient>
+              <linearGradient id="rim" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#e8532f"/>
+                <stop offset="1" stop-color="#c43a1e" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <rect width="500" height="600" fill="#14130f"/>
+            <!-- hard flash shadow on the wall -->
+            <path d="M 250 120 C 200 120 172 158 172 205 C 172 240 186 268 210 284 C 150 300 96 340 96 430 L 96 600 L 404 600 L 404 430 C 404 340 350 300 290 284 C 314 268 328 240 328 205 C 328 158 300 120 250 120 Z" transform="translate(26 14)" fill="#0c0b09"/>
+            <!-- subject, duotone -->
+            <path d="M 250 120 C 200 120 172 158 172 205 C 172 240 186 268 210 284 C 150 300 96 340 96 430 L 96 600 L 404 600 L 404 430 C 404 340 350 300 290 284 C 314 268 328 240 328 205 C 328 158 300 120 250 120 Z" fill="url(#duo)"/>
+            <!-- shadow side plane for form -->
+            <path d="M 250 120 C 300 120 328 158 328 205 C 328 240 314 268 290 284 C 350 300 404 340 404 430 L 404 600 L 250 600 Z" fill="#8a2617" opacity="0.42"/>
+            <!-- hair mass -->
+            <path d="M 250 120 C 205 120 176 152 173 200 C 190 178 214 166 250 166 C 286 166 310 178 327 200 C 324 152 295 120 250 120 Z" fill="#16130d"/>
+            <!-- brow / eye hint -->
+            <path d="M 205 214 q 22 -12 44 -2" fill="none" stroke="#1a140c" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+            <!-- rim light -->
+            <path d="M 96 430 C 96 342 148 302 208 285" fill="none" stroke="url(#rim)" stroke-width="7" stroke-linecap="round"/>
+            <!-- grain -->
+            <rect width="500" height="600" fill="url(#duo)" opacity="0" />
+          </svg>
+          <span class="grain" aria-hidden="true"></span>
+          <span class="frame__crop frame__crop--tl"></span>
+          <span class="frame__crop frame__crop--br"></span>
+          <figcaption class="frame__cap">
+            <span>FIG·01 — THE KEEPER</span>
+            <span>DIRECT FLASH / DEEP RED</span>
+          </figcaption>
+        </div>
+        <p class="portrait__note"><i class="dot"></i> A small studio. Every commission is handled by one pair of hands.</p>
+      </figure>
+    </section>
+
+    <div class="wrap"><div class="rule" role="separator"></div></div>
+
+    <!-- ============ OFFER ============ -->
+    <section class="section wrap" id="offer" aria-labelledby="offer-title">
+      <header class="section__head">
+        <p class="kicker"><span class="num">01</span> The offer</p>
+        <h2 class="section__title" id="offer-title">What you actually receive.</h2>
+        <p class="section__intro">Not a folder of files or a subscription. One finished, designed thing — made on purpose, and made to last.</p>
+      </header>
+      <div class="cards grid-4">
+        <article class="card reveal">
+          <span class="card__mark"><i class="dot dot--red"></i> 01</span>
+          <div class="card__glyph" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><rect x="8" y="8" width="32" height="32" rx="4" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M8 32l9-9 7 7 6-6 10 10" fill="none" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18" cy="18" r="3" fill="currentColor"/></svg>
+          </div>
+          <h3>A finished digital object</h3>
+          <p>Typeset, colour‑graded and composed — a single piece that opens like something made with intent, not exported from a phone.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__mark"><i class="dot dot--red"></i> 02</span>
+          <div class="card__glyph" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="15" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="24" cy="24" r="4" fill="var(--red)"/></svg>
+          </div>
+          <h3>One memory, kept whole</h3>
+          <p>We work with a single moment at a time. That constraint is the point — one thing, done properly, rather than everything, done thinly.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__mark"><i class="dot dot--red"></i> 03</span>
+          <div class="card__glyph" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M24 8l14 6v10c0 9-6 14-14 16-8-2-14-7-14-16V14z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M18 24l4 4 8-9" fill="none" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Yours to keep and pass on</h3>
+          <p>Delivered as a self‑contained keepsake plus an archival master. You own it outright — no account, no subscription, no expiry.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__mark"><i class="dot dot--red"></i> 04</span>
+          <div class="card__glyph" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M12 36c4-8 8-12 12-12s8 4 12 12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M24 24c0-6 3-10 3-14" fill="none" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/><circle cx="24" cy="14" r="3" fill="currentColor"/></svg>
+          </div>
+          <h3>Made by hand, in the open</h3>
+          <p>You see every stage. Nothing is automated away — the craft <em>is</em> the product, and you approve the object before it's yours.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ THE REVEAL — signature image crossfade ============ -->
+    <section class="section wrap reveal-section" id="reveal" aria-labelledby="reveal-title">
+      <header class="section__head section__head--wide">
+        <p class="kicker"><span class="num">02</span> The reveal <span class="live-tag"><i class="dot dot--live"></i> live demonstration</span></p>
+        <h2 class="section__title" id="reveal-title">Watch a memory become a keepsake.</h2>
+        <p class="section__intro">Choose a memory, then step it through the studio — from raw fragment, into the red room, to the finished object. The same frame throughout; only the memory changes.</p>
+      </header>
+
+      <div class="stage-shell">
+        <!-- memory tabs -->
+        <div class="tabs" role="tablist" aria-label="Choose a memory to follow">
+          <button class="tab is-active" role="tab" id="tab-photo" aria-selected="true" aria-controls="stage" data-memory="photo">
+            <i class="dot dot--red"></i> A photograph
+          </button>
+          <button class="tab" role="tab" id="tab-voice" aria-selected="false" aria-controls="stage" tabindex="-1" data-memory="voice">
+            <i class="dot"></i> A voice
+          </button>
+          <button class="tab" role="tab" id="tab-letter" aria-selected="false" aria-controls="stage" tabindex="-1" data-memory="letter">
+            <i class="dot"></i> A letter
+          </button>
+        </div>
+
+        <div class="stage-grid">
+          <!-- the fixed editorial frame: crossfade lives here -->
+          <div class="stage-frame">
+            <div class="frame frame--square stage" id="stage" role="tabpanel" aria-live="polite" tabindex="0" data-stage-root
+                 aria-label="Keepsake demonstration frame. Use left and right arrow keys to move between stages.">
+
+              <!-- ============ PHOTOGRAPH scenes ============ -->
+              <div class="scene is-active" data-memory="photo" data-stage="0" aria-hidden="false">
+                <div class="print">
+                  <div class="print__img print__img--raw"></div>
+                  <span class="print__clip" aria-hidden="true"></span>
+                  <span class="ring" aria-hidden="true"></span>
+                  <span class="dust d1"></span><span class="dust d2"></span><span class="dust d3"></span>
+                  <span class="print__file">IMG_0473.JPG · unsorted</span>
+                </div>
+              </div>
+              <div class="scene" data-memory="photo" data-stage="1" aria-hidden="true">
+                <div class="redroom">
+                  <div class="print print--straight">
+                    <div class="print__img print__img--red"></div>
+                    <span class="reg reg--tl"></span><span class="reg reg--br"></span>
+                  </div>
+                  <span class="tagpill"><i class="dot dot--red"></i> grading · dust removal</span>
+                  <span class="scan"></span>
+                </div>
+              </div>
+              <div class="scene" data-memory="photo" data-stage="2" aria-hidden="true">
+                <article class="keepsake">
+                  <header class="keepsake__top">
+                    <span class="keepsake__mark"><svg viewBox="0 0 24 24" width="16" height="16"><circle cx="12" cy="12" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="2" fill="var(--red)"/></svg> STILLROOM</span>
+                    <span class="chip">edition 1 / 1</span>
+                  </header>
+                  <div class="keepsake__media keepsake__media--photo"></div>
+                  <div class="keepsake__body">
+                    <h4>Brighton, August 1998</h4>
+                    <p>The last summer at the pier.</p>
+                    <div class="keepsake__meta">
+                      <span>KEPT · 12 MMXXVI</span><span>·</span><span>4:5 · archival master</span><span>·</span><span class="kept"><i class="dot dot--live"></i> kept</span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <!-- ============ VOICE scenes ============ -->
+              <div class="scene" data-memory="voice" data-stage="0" aria-hidden="true">
+                <div class="filerow">
+                  <span class="filerow__ico">♪</span>
+                  <div class="filerow__meta">
+                    <b>voicemail_final.m4a</b>
+                    <span>0:47 · received · unopened</span>
+                  </div>
+                  <div class="wave wave--raw" aria-hidden="true"></div>
+                </div>
+              </div>
+              <div class="scene" data-memory="voice" data-stage="1" aria-hidden="true">
+                <div class="redroom redroom--center">
+                  <div class="wave wave--red" aria-hidden="true"></div>
+                  <span class="tagpill"><i class="dot dot--red"></i> restoring · de‑noise</span>
+                  <span class="tc">00:00 —— 00:47</span>
+                </div>
+              </div>
+              <div class="scene" data-memory="voice" data-stage="2" aria-hidden="true">
+                <article class="keepsake">
+                  <header class="keepsake__top">
+                    <span class="keepsake__mark"><svg viewBox="0 0 24 24" width="16" height="16"><circle cx="12" cy="12" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="2" fill="var(--red)"/></svg> STILLROOM</span>
+                    <span class="chip">0:47</span>
+                  </header>
+                  <div class="keepsake__media keepsake__media--audio">
+                    <button class="playbtn" type="button" aria-label="Play preview (demonstration only)"><span aria-hidden="true">►</span></button>
+                    <div class="wave wave--keep" aria-hidden="true"></div>
+                  </div>
+                  <div class="keepsake__body">
+                    <h4>A Tuesday voicemail</h4>
+                    <p class="pull">“…don't forget to water the tomatoes, and call your sister.”</p>
+                    <div class="keepsake__meta">
+                      <span>KEPT · 12 MMXXVI</span><span>·</span><span>transcript included</span><span>·</span><span class="kept"><i class="dot dot--live"></i> kept</span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <!-- ============ LETTER scenes ============ -->
+              <div class="scene" data-memory="letter" data-stage="0" aria-hidden="true">
+                <div class="print print--letter">
+                  <div class="print__img print__img--letter"></div>
+                  <span class="scrawl s1"></span><span class="scrawl s2"></span><span class="scrawl s3"></span><span class="scrawl s4"></span>
+                  <span class="print__file">scan_letter.heic · skewed</span>
+                </div>
+              </div>
+              <div class="scene" data-memory="letter" data-stage="1" aria-hidden="true">
+                <div class="redroom">
+                  <div class="print print--straight print--letter">
+                    <div class="print__img print__img--letterred"></div>
+                    <span class="baseline"></span><span class="baseline b2"></span><span class="baseline b3"></span>
+                  </div>
+                  <span class="tagpill"><i class="dot dot--red"></i> transcribing · setting type</span>
+                </div>
+              </div>
+              <div class="scene" data-memory="letter" data-stage="2" aria-hidden="true">
+                <article class="keepsake">
+                  <header class="keepsake__top">
+                    <span class="keepsake__mark"><svg viewBox="0 0 24 24" width="16" height="16"><circle cx="12" cy="12" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="2" fill="var(--red)"/></svg> STILLROOM</span>
+                    <span class="seal" aria-hidden="true">✦</span>
+                  </header>
+                  <div class="keepsake__media keepsake__media--letter">
+                    <p>My dearest,</p>
+                    <p>Keep the small things. The kettle at six, the door left open, the way the light finds the table. I have loved every ordinary day.</p>
+                    <span class="sign">— always, m.</span>
+                  </div>
+                  <div class="keepsake__body">
+                    <h4>For my daughter, on the letter</h4>
+                    <div class="keepsake__meta">
+                      <span>KEPT · 12 MMXXVI</span><span>·</span><span>set in type by hand</span><span>·</span><span class="kept"><i class="dot dot--live"></i> kept</span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+            </div><!-- /.stage -->
+
+            <span class="stage-frame__idtag" data-stage-tag>STAGE 01 — RAW FRAGMENT</span>
+          </div>
+
+          <!-- controls -->
+          <div class="stage-controls">
+            <ol class="steps" aria-hidden="false">
+              <li class="step is-active" data-step="0"><span class="step__n">01</span><span class="step__l">Raw fragment</span></li>
+              <li class="step" data-step="1"><span class="step__n">02</span><span class="step__l">The red room</span></li>
+              <li class="step" data-step="2"><span class="step__n">03</span><span class="step__l">Keepsake, revealed</span></li>
+            </ol>
+
+            <div class="stepper">
+              <button class="stepper__btn" type="button" data-prev aria-label="Previous stage" disabled>←</button>
+              <div class="stepper__track" aria-hidden="true"><span data-progress></span></div>
+              <button class="stepper__btn" type="button" data-next aria-label="Next stage">→</button>
+            </div>
+
+            <p class="stage-controls__hint" data-hint>Step through the stages, or use your arrow keys. The last stage is the object you'd receive.</p>
+
+            <a href="#contact" class="btn btn--primary btn--block reveal-cta is-hidden" data-reveal-cta>Commission a keepsake like this →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap"><div class="rule" role="separator"></div></div>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section wrap" id="process" aria-labelledby="process-title">
+      <header class="section__head">
+        <p class="kicker"><span class="num">03</span> Process</p>
+        <h2 class="section__title" id="process-title">How a commission works.</h2>
+        <p class="section__intro">Slow on purpose. Four steps, roughly three to four weeks, and you're part of every one.</p>
+      </header>
+      <ol class="process">
+        <li class="proc reveal">
+          <span class="proc__n">01</span>
+          <h3>Bring one memory</h3>
+          <p>Send us the single moment — a file, a scan, a voice note, or just tell us where it lives. We'll take it from there.</p>
+        </li>
+        <li class="proc reveal">
+          <span class="proc__n">02</span>
+          <h3>We propose a form</h3>
+          <p>Within a week you receive one proposed treatment — the object we think this particular memory wants to become.</p>
+        </li>
+        <li class="proc reveal">
+          <span class="proc__n">03</span>
+          <h3>The red room</h3>
+          <p>We restore, grade, typeset and compose. You watch each stage and approve the final object before anything is fixed.</p>
+        </li>
+        <li class="proc reveal">
+          <span class="proc__n">04</span>
+          <h3>Kept</h3>
+          <p>You receive the finished keepsake and its archival master. It's yours outright — nothing to renew, nothing to lose.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ WORK — four mockups, consistent device framing ============ -->
+    <section class="section wrap" id="work" aria-labelledby="work-title">
+      <header class="section__head">
+        <p class="kicker"><span class="num">04</span> Work</p>
+        <h2 class="section__title" id="work-title">Selected keepsakes.</h2>
+        <p class="section__intro">Real objects, shown in the browser. Interface and type are live — the memories are illustrative.</p>
+      </header>
+      <div class="grid-2 works">
+        <!-- mockup 1: photo keepsake -->
+        <figure class="work reveal">
+          <div class="device">
+            <div class="device__bar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="device__url">stillroom.studio/keep/brighton‑98</span></div>
+            <div class="device__screen mk mk--photo">
+              <div class="mk-photo__img"></div>
+              <div class="mk-photo__meta"><b>Brighton, 1998</b><span>The last summer at the pier</span><em>1 / 1 · kept 12·MMXXVI</em></div>
+            </div>
+          </div>
+          <figcaption><span>FIG·02</span> Photograph keepsake — restored & framed</figcaption>
+        </figure>
+        <!-- mockup 2: audio keepsake -->
+        <figure class="work reveal">
+          <div class="device">
+            <div class="device__bar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="device__url">stillroom.studio/keep/tuesday‑vm</span></div>
+            <div class="device__screen mk mk--audio">
+              <div class="mk-audio__wave"></div>
+              <div class="mk-audio__row"><span class="mk-audio__play">►</span><span class="mk-audio__t">0:00 / 0:47</span><span class="chip chip--sm">transcript</span></div>
+              <p class="mk-audio__q">“…water the tomatoes, and call your sister.”</p>
+            </div>
+          </div>
+          <figcaption><span>FIG·03</span> Voice keepsake — waveform & transcript</figcaption>
+        </figure>
+        <!-- mockup 3: letter keepsake -->
+        <figure class="work reveal">
+          <div class="device">
+            <div class="device__bar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="device__url">stillroom.studio/keep/for‑my‑daughter</span></div>
+            <div class="device__screen mk mk--letter">
+              <p class="mk-letter__h">For my daughter</p>
+              <p class="mk-letter__b">Keep the small things. The kettle at six, the door left open, the way the light finds the table.</p>
+              <span class="mk-letter__sign">— always, m.</span>
+            </div>
+          </div>
+          <figcaption><span>FIG·04</span> Letter keepsake — transcribed & set in type</figcaption>
+        </figure>
+        <!-- mockup 4: archive index (occasional project colour) -->
+        <figure class="work reveal">
+          <div class="device">
+            <div class="device__bar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="device__url">stillroom.studio/archive</span></div>
+            <div class="device__screen mk mk--archive">
+              <div class="mk-arch__head"><b>The Family Archive</b><span class="chip chip--teal">7 kept</span></div>
+              <ul class="mk-arch__list">
+                <li><i class="dot dot--red"></i> Brighton, 1998 <em>photo</em></li>
+                <li><i class="dot dot--teal"></i> A Tuesday voicemail <em>voice</em></li>
+                <li><i class="dot"></i> For my daughter <em>letter</em></li>
+                <li><i class="dot dot--red"></i> The naming napkin <em>photo</em></li>
+              </ul>
+            </div>
+          </div>
+          <figcaption><span>FIG·05</span> Archive index — a small series, bound as a set</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ MATERIALS — 3 B&W material crops ============ -->
+    <section class="section wrap" id="materials" aria-labelledby="materials-title">
+      <header class="section__head">
+        <p class="kicker"><span class="num">05</span> Materials</p>
+        <h2 class="section__title" id="materials-title">Honest materials.</h2>
+        <p class="section__intro">Every keepsake is grounded in real texture — scanned, photographed, and pulled by hand.</p>
+      </header>
+      <div class="grid-3 mats">
+        <figure class="mat reveal">
+          <div class="frame frame--square mat__img mat--paper"><span class="grain"></span></div>
+          <figcaption><b>Paper</b> — 120gsm, cold‑pressed</figcaption>
+        </figure>
+        <figure class="mat reveal">
+          <div class="frame frame--square mat__img mat--film"><span class="grain"></span></div>
+          <figcaption><b>Film</b> — 35mm, expired</figcaption>
+        </figure>
+        <figure class="mat reveal">
+          <div class="frame frame--square mat__img mat--ink"><span class="grain"></span></div>
+          <figcaption><b>Ink</b> — bone black, hand‑pulled</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="wrap"><div class="rule" role="separator"></div></div>
+
+    <!-- ============ TRUSTED — memory types (no fake testimonials) ============ -->
+    <section class="section wrap" id="trusted" aria-labelledby="trusted-title">
+      <header class="section__head">
+        <p class="kicker"><span class="num">06</span> Discretion</p>
+        <h2 class="section__title" id="trusted-title">The kinds of memories people bring us.</h2>
+        <p class="section__intro">Illustrative examples, not real clients — discretion is the whole point. We don't publish commissions or share names. Ever.</p>
+      </header>
+      <div class="grid-4 people">
+        <figure class="person reveal">
+          <div class="avatar" data-avatar="a" aria-hidden="true"></div>
+          <figcaption><b>For a daughter</b><span>A voicemail she wasn't ready to delete.</span></figcaption>
+        </figure>
+        <figure class="person reveal">
+          <div class="avatar" data-avatar="b" aria-hidden="true"></div>
+          <figcaption><b>For a founder</b><span>The napkin the company was named on.</span></figcaption>
+        </figure>
+        <figure class="person reveal">
+          <div class="avatar" data-avatar="c" aria-hidden="true"></div>
+          <figcaption><b>For a widow</b><span>The last letter, set in type at last.</span></figcaption>
+        </figure>
+        <figure class="person reveal">
+          <div class="avatar" data-avatar="d" aria-hidden="true"></div>
+          <figcaption><b>For two friends</b><span>One photograph from a summer neither forgot.</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ COMMISSION / PRICING ============ -->
+    <section class="section wrap" id="commission" aria-labelledby="commission-title">
+      <header class="section__head">
+        <p class="kicker"><span class="num">07</span> Pricing</p>
+        <h2 class="section__title" id="commission-title">Commission a keepsake.</h2>
+        <p class="section__intro">Fixed, plainspoken pricing. Every commission includes the finished object and its archival master.</p>
+      </header>
+      <div class="grid-3 tiers">
+        <article class="tier reveal">
+          <header class="tier__head"><h3>The Single</h3><span class="tier__tag">most commissioned</span></header>
+          <p class="tier__price">from <b>£280</b></p>
+          <ul class="tier__list">
+            <li><i class="dot dot--red"></i> One memory, one object</li>
+            <li><i class="dot dot--red"></i> Restoration, grading & type</li>
+            <li><i class="dot dot--red"></i> One round of revisions</li>
+            <li><i class="dot dot--red"></i> Archival master, yours to keep</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary btn--block">Start a Single →</a>
+        </article>
+        <article class="tier tier--feature reveal">
+          <header class="tier__head"><h3>The Pair</h3><span class="tier__tag tier__tag--red">two, composed as one</span></header>
+          <p class="tier__price">from <b>£520</b></p>
+          <ul class="tier__list">
+            <li><i class="dot dot--red"></i> Two linked memories</li>
+            <li><i class="dot dot--red"></i> Composed as a single object</li>
+            <li><i class="dot dot--red"></i> Two rounds of revisions</li>
+            <li><i class="dot dot--red"></i> Presentation case included</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary btn--block">Start a Pair →</a>
+        </article>
+        <article class="tier reveal">
+          <header class="tier__head"><h3>The Archive</h3><span class="tier__tag">by application</span></header>
+          <p class="tier__price">from <b>£1,400</b></p>
+          <ul class="tier__list">
+            <li><i class="dot dot--red"></i> A small series, up to seven</li>
+            <li><i class="dot dot--red"></i> Bound as one indexed set</li>
+            <li><i class="dot dot--red"></i> Unlimited revisions</li>
+            <li><i class="dot dot--red"></i> A planning call to begin</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost btn--block">Apply for an Archive →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section wrap" id="faq" aria-labelledby="faq-title">
+      <header class="section__head">
+        <p class="kicker"><span class="num">08</span> Questions</p>
+        <h2 class="section__title" id="faq-title">Answered plainly.</h2>
+      </header>
+      <div class="faq">
+        <details class="qa reveal">
+          <summary><span>What counts as a memory?</span><i aria-hidden="true"></i></summary>
+          <p>A photograph, a voice note, a letter, a video still, a ticket stub, a recipe in someone's hand. One thing, whatever form it's in.</p>
+        </details>
+        <details class="qa reveal">
+          <summary><span>Do you need the original?</span><i aria-hidden="true"></i></summary>
+          <p>A clear scan or file is enough to begin. If we need a better source to do it justice, we'll tell you exactly what would help.</p>
+        </details>
+        <details class="qa reveal">
+          <summary><span>What do I actually get?</span><i aria-hidden="true"></i></summary>
+          <p>A finished digital keepsake plus an archival master file you keep forever. No account, no subscription, no expiry — it's a made object, not a service you rent.</p>
+        </details>
+        <details class="qa reveal">
+          <summary><span>Is my memory private?</span><i aria-hidden="true"></i></summary>
+          <p>Completely. We never publish commissions or share names, and your source material is deleted from our systems after delivery unless you ask us to hold it.</p>
+        </details>
+        <details class="qa reveal">
+          <summary><span>How long does it take?</span><i aria-hidden="true"></i></summary>
+          <p>Usually three to four weeks for a Single. We'd rather be slow and right than quick and forgettable.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT / CTA ============ -->
+    <section class="closer" id="contact" aria-labelledby="contact-title">
+      <div class="closer__word" aria-hidden="true">STILLROOM</div>
+      <div class="wrap closer__inner">
+        <div class="closer__copy">
+          <p class="kicker kicker--light"><span class="num">09</span> Begin</p>
+          <h2 class="section__title section__title--light" id="contact-title">Tell us the one memory<br>you'd keep.</h2>
+          <p class="closer__lede">No commitment yet — just the moment you have in mind. We'll write back within two working days with how we'd preserve it.</p>
+          <ul class="closer__reassure">
+            <li><i class="dot dot--live"></i> Commissions open for 2026</li>
+            <li><i class="dot dot--live"></i> Private by default</li>
+            <li><i class="dot dot--live"></i> No account required</li>
+          </ul>
+        </div>
+
+        <form class="form" data-form novalidate>
+          <div class="form__row">
+            <label for="f-name">Your name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required placeholder="Jordan Ellis" />
+          </div>
+          <div class="form__row">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+          </div>
+          <div class="form__row">
+            <label for="f-form">What form is the memory in?</label>
+            <div class="select-wrap">
+              <select id="f-form" name="format">
+                <option value="">Choose one…</option>
+                <option>A photograph</option>
+                <option>A voice or audio note</option>
+                <option>A letter or handwriting</option>
+                <option>A video or a still from one</option>
+                <option>Something else</option>
+              </select>
+            </div>
+          </div>
+          <div class="form__row">
+            <label for="f-memory">The one memory</label>
+            <textarea id="f-memory" name="memory" rows="3" required placeholder="Tell us what you'd preserve, and why it matters."></textarea>
+          </div>
+          <button class="btn btn--primary btn--block" type="submit" data-submit>Send the memory →</button>
+          <p class="form__fine">By sending, you agree we may reply by email. We never share your memory. This is a concept studio built as a landing page — no message is actually transmitted.</p>
+
+          <div class="form__done" data-done hidden role="status" aria-live="polite">
+            <span class="form__done-mark"><i class="dot dot--live"></i></span>
+            <h3>Thank you — your memory is noted.</h3>
+            <p>We'd write back within two working days with a proposed form for <b data-echo>your memory</b>. Consider this the first stage of the red room.</p>
+            <button class="btn btn--ghost btn--sm" type="button" data-reset>Send another →</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="foot">
+    <div class="wrap foot__inner">
+      <div class="foot__brand">
+        <a class="brand brand--foot" href="#top">
+          <span class="brand__glyph" aria-hidden="true"><svg viewBox="0 0 40 40" width="22" height="22"><circle cx="20" cy="20" r="12" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="20" cy="20" r="3.2" fill="var(--red)"/></svg></span>
+          <span class="brand__word">STILLROOM</span>
+        </a>
+        <p>One memory, preserved as a beautifully designed digital object.</p>
+        <span class="badge badge--foot"><i class="dot dot--live"></i> Open for commissions</span>
+      </div>
+      <nav class="foot__nav" aria-label="Footer">
+        <div><h4>Studio</h4><a href="#offer">The offer</a><a href="#process">Process</a><a href="#work">Work</a><a href="#materials">Materials</a></div>
+        <div><h4>Commission</h4><a href="#reveal">The reveal</a><a href="#commission">Pricing</a><a href="#faq">Questions</a><a href="#contact">Begin</a></div>
+        <div><h4>Colophon</h4><span>Space Grotesk</span><span>Warm paper / carbon / deep red</span><span>Built with restraint</span></div>
+      </nav>
+    </div>
+    <div class="wrap foot__base">
+      <span>© MMXXVI STILLROOM — a concept studio, built as a landing page.</span>
+      <span>Reduced motion respected · One authored motion moment</span>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
